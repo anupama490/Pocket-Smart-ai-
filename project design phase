@@ -1,0 +1,18 @@
+## Phase 4: Project Design
+
+**PocketSmart AI** is designed as a simple and user-friendly budgeting assistant.
+
+### Main Design
+
+* **Dashboard:** Shows income, expenses, balance, and savings.
+* **Expense Tracker:** Add and categorize daily expenses.
+* **Budget Planner:** Set monthly spending limits.
+* **AI Assistant:** Provides personalized budgeting suggestions.
+* **Savings Tracker:** Set and monitor savings goals.
+* **Reports:** Displays spending summaries and charts.
+
+### System Flow
+
+**User Input → Expense Analysis → AI Processing → Recommendations → Dashboard/Reports**
+
+**Design Goal:** Create a simple interface that helps users understand and manage their money easily.
