@@ -1,0 +1,22 @@
+Requirement Analysis
+
+PocketSmart AI requires the following:
+
+Functional Requirements
+Enter monthly income.
+Add and categorize expenses.
+Calculate total expenses and remaining balance.
+Set monthly budgets and savings goals.
+Analyze spending patterns.
+Generate AI-based budget recommendations.
+Display reports and alerts.
+Non-Functional Requirements
+Simple and user-friendly interface.
+Fast and accurate calculations.
+Secure and private financial data.
+Reliable and easy-to-maintain system.
+Technology Requirements
+Frontend: HTML, CSS, JavaScript
+AI: Generative AI/LLM
+Database: For storing expenses and budgets
+Tools: Visual Studio Code and web browser
