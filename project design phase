@@ -1,18 +1,4 @@
-## Phase 4: Project Design
-
-**PocketSmart AI** is designed as a simple and user-friendly budgeting assistant.
-
-### Main Design
-
-* **Dashboard:** Shows income, expenses, balance, and savings.
-* **Expense Tracker:** Add and categorize daily expenses.
-* **Budget Planner:** Set monthly spending limits.
-* **AI Assistant:** Provides personalized budgeting suggestions.
-* **Savings Tracker:** Set and monitor savings goals.
-* **Reports:** Displays spending summaries and charts.
-
-### System Flow
-
-**User Input → Expense Analysis → AI Processing → Recommendations → Dashboard/Reports**
-
-**Design Goal:** Create a simple interface that helps users understand and manage their money easily.
+Project Design Phase
+The Project Design Phase explains how the PocketSmart AI application will be structured and how its different components will interact. The team creates a basic design of the application before starting complete development. The user interface can contain fields for entering monthly income and various expenses. A button such as “Analyze My Budget” can be provided to start the analysis.
+Once the user enters the required information, the system sends the data to the Python program. Python performs the basic calculations, including total expenses and remaining money. After this calculation, the relevant information is prepared and passed to the Generative AI model. The AI analyzes the financial information and generates recommendations based on the user's spending pattern.
+The design also considers how the final results will be displayed. The user can see a Budget Summary containing income, total expenses, and remaining amount. Below the summary, the application can display the PocketSmart AI Recommendation, containing suggestions for saving money and controlling unnecessary expenses. The overall design should be simple, organized, and easy for a user to understand.
