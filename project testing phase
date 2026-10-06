@@ -1,13 +1,5 @@
-## Phase 7: Project Testing
-
-The **PocketSmart AI** application is tested to ensure all features work correctly.
-
-* Test **income and expense entry**.
-* Verify **budget and balance calculations**.
-* Test **expense categories and savings goals**.
-* Check **AI recommendations** for relevant responses.
-* Test **dashboard, charts, and reports**.
-* Check **user interface and navigation**.
-* Fix errors and improve system performance.
-
-**Outcome:** Ensure PocketSmart AI is accurate, reliable, and user-friendly before final deployment.
+Project Testing Phase
+The Project Testing Phase is performed to ensure that PocketSmart AI works correctly. Testing begins with the input fields. The team enters different values for income and expenses and checks whether the application accepts the information correctly. Different combinations of values are used to make sure that the total expense and remaining amount are calculated accurately.
+The AI recommendation system is also tested. Different financial situations are provided to the application to check whether the generated recommendations are relevant to the user's budget. The team checks whether the AI response is understandable and whether it provides useful suggestions related to the entered expenses.
+The application is also tested for possible errors. For example, the team checks how the application behaves when zero values, empty values, or unexpected inputs are provided. The Gemini connection is checked to ensure that the application can successfully generate recommendations. Any errors discovered during testing are corrected and the application is tested again.
+Testing also includes checking the overall user experience. The team makes sure that the buttons work properly, the information is displayed clearly, and the user can understand the results without difficulty. Successful testing increases the reliability and quality of the final PocketSmart AI application.
