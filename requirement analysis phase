@@ -1,22 +1,4 @@
-Requirement Analysis
-
-PocketSmart AI requires the following:
-
-Functional Requirements
-Enter monthly income.
-Add and categorize expenses.
-Calculate total expenses and remaining balance.
-Set monthly budgets and savings goals.
-Analyze spending patterns.
-Generate AI-based budget recommendations.
-Display reports and alerts.
-Non-Functional Requirements
-Simple and user-friendly interface.
-Fast and accurate calculations.
-Secure and private financial data.
-Reliable and easy-to-maintain system.
-Technology Requirements
-Frontend: HTML, CSS, JavaScript
-AI: Generative AI/LLM
-Database: For storing expenses and budgets
-Tools: Visual Studio Code and web browser
+ Requirement Analysis Phase
+The Requirement Analysis Phase focuses on identifying everything needed to develop the PocketSmart AI system. The team first identifies the functional requirements, which describe what the application should do. The application should allow users to enter their monthly income and different types of expenses. Possible categories include food and groceries, travel, shopping, education, entertainment, and other expenses. The system should process these inputs and calculate the total amount spent.
+The application should also calculate the amount remaining after expenses. This information becomes the basis for the AI analysis. Another important requirement is the integration of a Generative AI model that can understand the user's financial information and provide suitable recommendations. The recommendations should be simple and understandable so that users can easily follow them.
+The team also identifies non-functional requirements. The application should have a simple and user-friendly interface. It should respond quickly when the user submits information and should display the results clearly. The system should also handle incorrect or empty inputs properly. Technologies such as Python, Streamlit, and Google Gemini can be selected for implementation. The requirements identified in this stage act as a foundation for the design and development of the project.
