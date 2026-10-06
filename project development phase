@@ -1,13 +1,5 @@
-## Phase 6: Project Development
-
-**PocketSmart AI** is developed by implementing the planned features:
-
-* Create the **user-friendly dashboard**.
-* Develop **income and expense tracking**.
-* Add **budget and savings goal** features.
-* Implement **expense calculations and analysis**.
-* Integrate **Generative AI** for personalized recommendations.
-* Add **charts, reports, and budget alerts**.
-* Connect the required **database** for storing user data.
-
-**Outcome:** A working PocketSmart AI application that tracks expenses, analyzes budgets, and provides AI-based recommendations.
+Project Development Phase
+The Project Development Phase is the main implementation stage where the planned design is converted into a working application. The developers begin by creating the user interface using Streamlit. Input fields are created for monthly income and different expense categories. The user can enter the required values and submit them for analysis.
+Python is used to process the entered information. The program calculates the total expenses by adding the values entered in the different categories. The remaining amount is calculated by subtracting the total expenses from the monthly income. These calculations provide the basic financial summary of the user's budget.
+The Generative AI feature is then integrated into the application. The financial information is provided to the Gemini AI model through an appropriate prompt. The model analyzes the income and expense information and generates recommendations. These may include suggestions for reducing unnecessary expenses, improving savings, and managing spending categories. The AI-generated response is then displayed in the application.
+During development, the team continuously checks the application and corrects programming errors. The interface, calculations, AI connection, and output display are improved step by step. The development phase is considered complete when the major features work together as a single application.
