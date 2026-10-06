@@ -1,13 +1,4 @@
-## Phase 5: Project Planning
-
-**PocketSmart AI** project will be developed in the following steps:
-
-1. **Planning** – Define objectives and features.
-2. **UI Design** – Design the dashboard and user interface.
-3. **Development** – Build expense tracking, budgeting, and AI features.
-4. **AI Integration** – Add personalized recommendations.
-5. **Testing** – Test calculations, features, and user experience.
-6. **Deployment** – Run and present the final application.
-7. **Documentation** – Prepare screenshots, results, and project report.
-
-**Outcome:** Complete a functional and user-friendly AI budgeting assistant.
+ Project Planning Phase
+The Project Planning Phase involves deciding how the project will be developed and completed. The team divides the project into smaller tasks so that every member has a clear responsibility. Tasks may include researching the problem, designing the interface, writing Python code, integrating Gemini AI, testing the application, preparing documentation, and presenting the final project.
+A development schedule is also prepared. Initially, the team can focus on understanding the project and collecting requirements. Next, the team can design the interface and develop the basic budget calculation system. After that, the Generative AI component can be integrated. Testing and error correction are performed after development, followed by documentation and final demonstration.
+The team also plans the tools and resources required for the project. Python can be used for programming, Streamlit for the application interface, and Google Gemini for Generative AI functionality. The team should also identify possible challenges such as incorrect calculations, API connection problems, invalid user inputs, and unsuitable AI responses. Planning these aspects in advance helps the team complete the project in an organized manner.
