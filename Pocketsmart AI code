@@ -1,0 +1,98 @@
+import streamlit as st
+import google.generativeai as genai
+
+# -----------------------------
+# Gemini API Configuration
+# -----------------------------
+API_KEY = "YOUR_GEMINI_API_KEY"
+
+genai.configure(api_key=API_KEY)
+model = genai.GenerativeModel("gemini-2.0-flash")
+
+# -----------------------------
+# Page Configuration
+# -----------------------------
+st.set_page_config(
+    page_title="PocketSmart AI",
+    page_icon="💰",
+    layout="centered"
+)
+
+st.title("💰 PocketSmart AI")
+st.subheader("Your Smart Budget & Recommendation Assistant")
+
+st.write("Enter your monthly income and expenses to get a smart budget recommendation.")
+
+# -----------------------------
+# User Inputs
+# -----------------------------
+income = st.number_input(
+    "Monthly Income (₹)",
+    min_value=0.0,
+    step=1000.0
+)
+
+food = st.number_input("Food & Groceries (₹)", min_value=0.0)
+travel = st.number_input("Travel (₹)", min_value=0.0)
+shopping = st.number_input("Shopping (₹)", min_value=0.0)
+education = st.number_input("Education (₹)", min_value=0.0)
+entertainment = st.number_input("Entertainment (₹)", min_value=0.0)
+other = st.number_input("Other Expenses (₹)", min_value=0.0)
+
+# -----------------------------
+# Budget Calculation
+# -----------------------------
+if st.button("Analyze My Budget 💡"):
+
+    total_expenses = (
+        food +
+        travel +
+        shopping +
+        education +
+        entertainment +
+        other
+    )
+
+    savings = income - total_expenses
+
+    st.write("### 📊 Budget Summary")
+
+    st.write(f"**Monthly Income:** ₹{income:,.2f}")
+    st.write(f"**Total Expenses:** ₹{total_expenses:,.2f}")
+    st.write(f"**Remaining Amount:** ₹{savings:,.2f}")
+
+    # -----------------------------
+    # Gemini Recommendation
+    # -----------------------------
+    prompt = f"""
+    You are PocketSmart AI, a friendly personal budget assistant.
+
+    Monthly income: ₹{income}
+    Food and groceries: ₹{food}
+    Travel: ₹{travel}
+    Shopping: ₹{shopping}
+    Education: ₹{education}
+    Entertainment: ₹{entertainment}
+    Other expenses: ₹{other}
+    Total expenses: ₹{total_expenses}
+    Remaining amount: ₹{savings}
+
+    Analyze this budget and give:
+    1. A short spending analysis
+    2. Which category needs attention
+    3. Simple ways to save money
+    4. A recommended monthly budget
+    5. A short final suggestion
+
+    Keep the answer simple and practical.
+    """
+
+    try:
+        response = model.generate_content(prompt)
+
+        st.write("### 🤖 PocketSmart AI Recommendation")
+        st.write(response.text)
+
+    except Exception as e:
+        st.error("Unable to connect to Gemini AI.")
+        st.write(e)
