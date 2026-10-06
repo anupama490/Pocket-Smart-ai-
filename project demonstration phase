@@ -1,11 +1,5 @@
-The PocketSmart AI project is demonstrated by showing its main features and working process.
-
-Open the PocketSmart AI dashboard.
-Enter monthly income and expenses.
-Show budget and balance calculations.
-Demonstrate expense tracking and categories.
-Show AI-generated recommendations.
-Demonstrate savings goals and reports.
-Explain the testing results and final outcome.
-
-Outcome: Demonstrate that PocketSmart AI works correctly and fulfills the project requirements.
+Project Demonstration Phase
+The Project Demonstration Phase is the final stage of the project. In this phase, the completed PocketSmart AI application is presented to teachers, evaluators, or other audiences. The team begins by explaining the problem of personal budget management and introduces PocketSmart AI as the proposed solution.
+The team then demonstrates the actual working application. First, sample monthly income is entered into the application. Different expenses such as food, travel, shopping, education, and entertainment are then entered. After clicking the analysis button, the application calculates the total expenses and remaining amount.
+Next, the team demonstrates the Generative AI feature. The financial information is analyzed by the AI, and the application displays recommendations based on the user's spending pattern. The team explains how Python handles the calculations and how Gemini provides the AI-based recommendations.
+During the final presentation, each team member can explain their contribution to the project. One member can explain the idea and requirements, another can explain the interface and coding, another can explain the Gemini AI integration and testing, and another can explain documentation and presentation. The demonstration ends by explaining the benefits, limitations, and possible future improvements of PocketSmart AI.
