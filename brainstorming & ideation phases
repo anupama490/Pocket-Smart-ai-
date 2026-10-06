@@ -1,13 +1,4 @@
-1. Brainstorming
-
-The brainstorming phase focuses on generating ideas to solve the problem of poor money management among students, employees, and young adults.
-
-Problems Identified
-Difficulty tracking daily expenses
-Overspending on food, shopping, entertainment, and subscriptions
-Lack of proper monthly budgeting
-Difficulty identifying unnecessary expenses
-Low awareness of saving opportunities
-Manual expense tracking can be time-consuming
-Users may not know how much they can safely spend
-Existing budgeting apps may provide data without personalized recommendations
+1. Brainstorming & Ideation Phase
+The Brainstorming and Ideation Phase is the first stage of the PocketSmart AI project. In this phase, the team discusses different problems that people face in managing their personal finances. Students and young people may receive a fixed amount of money every month but may not have a proper method to track where the money is being spent. Unplanned spending on food, shopping, travel, entertainment, and other activities can reduce savings. From this problem, the team identifies the need for a simple and intelligent budgeting assistant.
+The team develops the idea of PocketSmart AI – Your Smart Budget & Recommendation Assistant. The main concept is to create an application that allows users to enter their monthly income and expenses and receive an easy-to-understand analysis. The system will calculate the total expenses and remaining amount and use Generative AI to provide useful recommendations. The team discusses possible features, user requirements, technologies, interface design, and expected results. The main objective is to make budgeting simple, interactive, and useful for everyday users.
+The brainstorming stage also helps the team decide what makes the project different from a normal calculator. A normal budgeting application may only calculate expenses, while PocketSmart AI is intended to use Generative AI to analyze the information and provide personalized suggestions. For example, if a user spends a large amount on shopping, the system can point out that category and suggest ways to control unnecessary spending. Thus, the idea combines budget calculation and AI-based recommendations in one application.
